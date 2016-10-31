@@ -13,11 +13,17 @@
         {"name": "Marco Pivetta", "email": "ocramius@gmail.com"}
     ],
     "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/aldisanta/dbal"
+        }
+    ],
     "require": {
         "php": "^5.6 || ^7.0",
         "ext-pdo": "*",
         "doctrine/collections": "~1.2",
-        "doctrine/dbal": ">=2.5-dev,<2.7-dev",
+        "doctrine/dbal": "coorsfix",
         "doctrine/instantiator": "~1.0.1",
         "doctrine/common": ">=2.5-dev,<2.7-dev",
         "doctrine/cache": "~1.4",
