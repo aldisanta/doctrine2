@@ -23,7 +23,7 @@
         "php": "^5.6 || ^7.0",
         "ext-pdo": "*",
         "doctrine/collections": "~1.2",
-        "doctrine/dbal": "dev-coors-dbal-2.5.1",
+        "doctrine/dbal": "dev-coors-dbal-2.5.1@dev",
         "doctrine/instantiator": "~1.0.1",
         "doctrine/common": ">=2.5-dev,<2.7-dev",
         "doctrine/cache": "~1.4",
