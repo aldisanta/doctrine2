@@ -12,7 +12,7 @@
         {"name": "Jonathan Wage", "email": "jonwage@gmail.com"},
         {"name": "Marco Pivetta", "email": "ocramius@gmail.com"}
     ],
-    "minimum-stability": "dev",
+    // "minimum-stability": "dev",
     "repositories": [
         {
             "type": "vcs",
