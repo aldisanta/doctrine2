@@ -12,18 +12,12 @@
         {"name": "Jonathan Wage", "email": "jonwage@gmail.com"},
         {"name": "Marco Pivetta", "email": "ocramius@gmail.com"}
     ],
-    // "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/aldisanta/dbal"
-        }
-    ],
+    "minimum-stability": "dev",
     "require": {
         "php": "^5.6 || ^7.0",
         "ext-pdo": "*",
         "doctrine/collections": "~1.2",
-        "doctrine/dbal": "dev-2.5.1",
+        "doctrine/dbal": ">=2.5-dev,<2.7-dev",
         "doctrine/instantiator": "~1.0.1",
         "doctrine/common": ">=2.5-dev,<2.7-dev",
         "doctrine/cache": "~1.4",
